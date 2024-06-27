@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>Move in rent calculator</title>
+  <script>
+    function calculate() {
+      var monthlyRent = document.getElementById("rent").value;
+      var weeksFree = document.getElementById("weeksFree").value;
+      var effectiveRent = (monthlyRent) * (52 - weeksFree) / 52;
+      document.getElementById("effectiveRent").innerHTML = effectiveRent.toFixed(2);
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Move in rent calculator</h1>
+  <p>Enter the monthly rent and the number of weeks free to calculate the effective rent.</p>
+  <form>
+    <label for="rent">Monthly rent:</label>
+    <input type="number" id="rent" name="rent" value="3700">
+    <br>
+    <label for="weeksFree">Weeks free:</label>
+    <input type="number" id="weeksFree" name="weeksFree" value="4">
+    <br>
+    <button type="button" onclick="calculate()">Calculate</button>
+  </form>
+  <p>Effective monthly rent: $<span id="effectiveRent"></span></p>
+</body>
+
+</html>
