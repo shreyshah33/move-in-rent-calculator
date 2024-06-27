@@ -2,6 +2,12 @@
 
 This project provides a simple web application that calculates the effective monthly rent, taking into account any weeks free offered by the landlord. It's a handy tool for renters looking to understand the actual cost of their lease over a year.
 
+
+## Visit the Site
+You can visit the live site for this project at [https://moveinrentcalculator.netlify.app/](https://moveinrentcalculator.netlify.app/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bee798b4-0e70-4870-b7e8-202f15d607ce/deploy-status)](https://app.netlify.com/sites/moveinrentcalculator/deploys)
+
 ## Features
 
 - **Rent Input**: Users can input the monthly rent amount.
